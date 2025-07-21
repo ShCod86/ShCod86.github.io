@@ -131,9 +131,9 @@
         }
         
         .project-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
+            width: 90%;
+            height: 100px;
+            object-fit: fill;
         }
         
         .project-info {
@@ -223,7 +223,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="https://via.placeholder.com/150" alt="Моё фото" class="avatar">
+            <img src="assets\java.svg" alt="Моё фото" class="avatar">
             <h1>Шахисламов Семён</h1>
             <p class="tagline">Начинающий Java разработчик</p>
             <a href="#projects" class="btn">Мои работы</a>
@@ -238,7 +238,7 @@
                     <p>Привет! Я начинающий разработчик. Прошел обучение в Нетологии по професии Java-разработчик, прохожу обучение в Skillbox программа Java разработка-pro. 
                         Работаю инженером баз данных.
                         Учусь каждый день. </p>
-                    <p>В свободное время люблю изучать новые технологии.</p>
+                    <p>В свободное время люблю изучать новые технологии, путешествовать, проводить время с семьёй.</p>
                     
                     <div class="skills">
                         <span class="skill">Java</span>
@@ -246,6 +246,7 @@
                         <span class="skill">SQL</span>
                         <span class="skill">Spring Boot</span>
                         <span class="skill">Maven</span>
+                        <span class="skill">Docker</span>
                     </div>
                 </div>
             </div>
@@ -254,43 +255,55 @@
 
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">Мои проекты</h2>
+            <h2 class="section-title">Мои учебные проекты</h2>
             <div class="projects-grid">
-                <!-- Проект 1 -->
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x200" alt="Проект 1" class="project-img">
+
+                    <img src="assets\Logo Skillbox Black.svg" alt="Поисковая система для веб-сайтов" class="project-img">
                     <div class="project-info">
-                        <h3 class="project-title">Название проекта 1</h3>
-                        <p>Краткое описание проекта. Что он делает, какие технологии использовались.</p>
+                        <h3 class="project-title">Поисковая система для веб-сайтов</h3>
+                        <p>Полнофункциональная поисковая система с возможностью индексации веб-сайтов и поиска по проиндексированному контенту.</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Демо</a>
-                            <a href="#" class="btn btn-outline">Код</a>
+                            <!-- <a href="#" class="btn">Демо</a> -->
+                            <a href="https://github.com/ShCod86/Skillbox-search-engine.git" class="btn btn-outline">Код</a>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Проект 2 -->
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x200" alt="Проект 2" class="project-img">
+                    <img src="assets\full_black.svg" alt="Сетевой чат" class="project-img">
                     <div class="project-info">
-                        <h3 class="project-title">Название проекта 2</h3>
-                        <p>Краткое описание проекта. Что он делает, какие технологии использовались.</p>
+                        <h3 class="project-title">Сетевой чат</h3>
+                        <p>Клиент серверное приложение для обмена текстовыми сообщениями по сети с помощью консоли (терминала) между двумя и более пользователями.</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Демо</a>
-                            <a href="#" class="btn btn-outline">Код</a>
+                            <!-- <a href="#" class="btn">Демо</a> -->
+                            <a href="https://github.com/ShCod86/Jd-homework-GroupChat.git" class="btn btn-outline">Код</a>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Проект 3 -->
+                
                 <div class="project-card">
-                    <img src="https://via.placeholder.com/400x200" alt="Проект 3" class="project-img">
+                    <img src="assets\full_black.svg" alt="Сервис перевода денег" class="project-img">
                     <div class="project-info">
-                        <h3 class="project-title">Название проекта 3</h3>
-                        <p>Краткое описание проекта. Что он делает, какие технологии использовались.</p>
+                        <h3 class="project-title">Сервис перевода денег</h3>
+                        <p>Rest - сервис преоставляет интерфейс для перевода денег с одной карты на другую по заранее описанной спецификации. Работает совместно с заранее подготовенным веб - приложением (FRONT).</p>
                         <div class="project-links">
-                            <a href="#" class="btn">Демо</a>
-                            <a href="#" class="btn btn-outline">Код</a>
+                            <!-- <a href="#" class="btn">Демо</a> -->
+                            <a href="https://github.com/ShCod86/Money-transfer.git" class="btn btn-outline">Код</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="project-card">
+                    <img src="assets\full_black.svg" alt="Облачное хранилище" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Облачное хранилище</h3>
+                        <p>Разработан сервис предоставляющий REST-интерфейс для загрузки файлов и вывода списка уже загруженных файлов пользователя.</p>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn">Демо</a> -->
+                            <a href="https://github.com/ShCod86/Java_Developer_Diplom.git" class="btn btn-outline">Код</a>
                         </div>
                     </div>
                 </div>
@@ -324,7 +337,7 @@
 
     <footer>
         <div class="container">
-            <p>© 2024 Ваше Имя. Все права защищены.</p>
+            <p>© 2025 Шахисламов Семён. Все права защищены.</p>
         </div>
     </footer>
 
